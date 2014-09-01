@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "d78e39644d190c85680372c43debded4",
+    "hash": "c8121c63f4bca92783710aa0e1ec4ad0",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -768,6 +768,121 @@
                 "varnish"
             ],
             "time": "2014-08-19 12:04:24"
+        },
+        {
+            "name": "friendsofsymfony/oauth-server-bundle",
+            "version": "1.4.1",
+            "target-dir": "FOS/OAuthServerBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/FriendsOfSymfony/FOSOAuthServerBundle.git",
+                "reference": "bb576145abdad8dd63611acd0bcc50ab8dc7c0dc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSOAuthServerBundle/zipball/bb576145abdad8dd63611acd0bcc50ab8dc7c0dc",
+                "reference": "bb576145abdad8dd63611acd0bcc50ab8dc7c0dc",
+                "shasum": ""
+            },
+            "require": {
+                "friendsofsymfony/oauth2-php": "~1.1.0",
+                "php": ">=5.3.3",
+                "symfony/framework-bundle": "~2.1",
+                "symfony/security-bundle": "~2.1"
+            },
+            "require-dev": {
+                "doctrine/doctrine-bundle": "~1.0",
+                "doctrine/mongodb-odm": "1.0.*@dev",
+                "doctrine/orm": ">=2.2,<2.5-dev",
+                "symfony/class-loader": "~2.1",
+                "symfony/yaml": "~2.1",
+                "willdurand/propel-typehintable-behavior": "1.0.*"
+            },
+            "suggest": {
+                "doctrine/doctrine-bundle": "*",
+                "doctrine/mongodb-odm-bundle": "*",
+                "propel/propel-bundle": "If you want to use Propel with Symfony2, then you will have to install the PropelBundle",
+                "willdurand/propel-typehintable-behavior": "The Typehintable behavior is useful to add type hints on generated methods, to be compliant with interfaces"
+            },
+            "type": "symfony-bundle",
+            "autoload": {
+                "psr-0": {
+                    "FOS\\OAuthServerBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Arnaud Le Blanc",
+                    "email": "arnaud.lb@gmail.com"
+                },
+                {
+                    "name": "FriendsOfSymfony Community",
+                    "homepage": "https://github.com/FriendsOfSymfony/FOSOAuthServerBundle/contributors"
+                }
+            ],
+            "description": "Symfony2 OAuth Server Bundle",
+            "homepage": "http://friendsofsymfony.github.com",
+            "keywords": [
+                "oauth",
+                "oauth2",
+                "server"
+            ],
+            "time": "2014-01-02 16:08:47"
+        },
+        {
+            "name": "friendsofsymfony/oauth2-php",
+            "version": "1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/FriendsOfSymfony/oauth2-php.git",
+                "reference": "33127b1093f74ae937a2a93c1681db8e4bb84964"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/FriendsOfSymfony/oauth2-php/zipball/33127b1093f74ae937a2a93c1681db8e4bb84964",
+                "reference": "33127b1093f74ae937a2a93c1681db8e4bb84964",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.2",
+                "symfony/http-foundation": "~2.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "OAuth2": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Arnaud Le Blanc",
+                    "email": "arnaud.lb@gmail.com"
+                },
+                {
+                    "name": "FriendsOfSymfony Community",
+                    "homepage": "https://github.com/FriendsOfSymfony/oauth2-php/contributors"
+                }
+            ],
+            "description": "OAuth2 library",
+            "homepage": "https://github.com/FriendsOfSymfony/oauth2-php",
+            "keywords": [
+                "oauth",
+                "oauth2"
+            ],
+            "time": "2013-10-30 00:01:17"
         },
         {
             "name": "friendsofsymfony/rest-bundle",
@@ -2687,17 +2802,16 @@
         },
         {
             "name": "willdurand/rest-extra-bundle",
-            "version": "v1.0.1",
-            "target-dir": "Bazinga/Bundle/RestExtraBundle",
+            "version": "v1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/willdurand/BazingaRestExtraBundle.git",
-                "reference": "cce89aada6fb40802408b8500c11d3bdd1b05f3a"
+                "reference": "18ac17a5e651cc5237cb4b43898698f72b3b9912"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/willdurand/BazingaRestExtraBundle/zipball/cce89aada6fb40802408b8500c11d3bdd1b05f3a",
-                "reference": "cce89aada6fb40802408b8500c11d3bdd1b05f3a",
+                "url": "https://api.github.com/repos/willdurand/BazingaRestExtraBundle/zipball/18ac17a5e651cc5237cb4b43898698f72b3b9912",
+                "reference": "18ac17a5e651cc5237cb4b43898698f72b3b9912",
                 "shasum": ""
             },
             "require": {
@@ -2717,8 +2831,8 @@
                 }
             },
             "autoload": {
-                "psr-0": {
-                    "Bazinga\\Bundle\\RestExtraBundle": ""
+                "psr-4": {
+                    "Bazinga\\Bundle\\RestExtraBundle\\": ""
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -2728,8 +2842,7 @@
             "authors": [
                 {
                     "name": "William Durand",
-                    "email": "william.durand1@gmail.com",
-                    "homepage": "http://www.willdurand.fr"
+                    "email": "william.durand1@gmail.com"
                 }
             ],
             "description": "This bundle provides extra features for your REST APIs built using Symfony2.",
@@ -2737,7 +2850,7 @@
                 "api",
                 "rest"
             ],
-            "time": "2014-01-05 03:58:50"
+            "time": "2014-08-23 16:56:20"
         }
     ],
     "packages-dev": [
