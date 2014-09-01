@@ -1,8 +1,9 @@
 # Dependencies setup
 
 Dependencies list:
-- [symfony REST edition github page](https://github.com/gimler/symfony-rest-edition): The symfony REST edition provide a bunch of bundles to build your REST API
--
+
+* [symfony REST edition github page](https://github.com/gimler/symfony-rest-edition): The symfony REST edition provide a bunch of bundles to build your REST API
+*
 
 
 ## Installing the REST Edition
