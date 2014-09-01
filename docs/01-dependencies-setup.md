@@ -1,27 +1,11 @@
 # Dependencies setup
 
-Dependencies list:
-
+## Dependencies list
 * [Symfony REST edition](https://github.com/gimler/symfony-rest-edition):
-    Symfony REST edition provide a bunch of bundles to build your REST API
-* [FOSOAuthServerBundle](https://github.com/FriendsOfSymfony/FOSOAuthServerBundle)
+    Symfony REST edition provides a symfony standart edition setup plus a bunch of bundles to build your REST API
+* [FOSOAuthServerBundle](https://github.com/FriendsOfSymfony/FOSOAuthServerBundle):
+    FOSOAuthServerBundle will let your application act as an oAuth server
 
+Install all those dependencies following their respective installation documentation.
 
-
-## Installing the REST Edition
-
-Check out the installation documentation on the [symfony REST edition github page](https://github.com/gimler/symfony-rest-edition)
-
-Installation using composer in a nutshell:
-
-If you don't have Composer yet, just run the following command:
-
-    curl -s http://getcomposer.org/installer | php
-
-Then, use the `create-project` command to generate a new Symfony application:
-
-    php composer.phar create-project gimler/symfony-rest-edition --stability=dev path/to/install
-
-
-
-
+Next section: [Clean up the REST Edition](02-cleanup.md)
