@@ -46,6 +46,10 @@ Add the bundle to your `composer.json` file:
 Replace `<version>` by the version you want to install.
 Check on [Packagist](http://packagist.org/packages/friendsofsymfony/oauth-server-bundle) to get a list of versions
 
+Download the dependency:
+
+    php composer.phar update
+
 ### Step 2: Enable the bundle
 
 Finally, enable the bundle in the kernel:
