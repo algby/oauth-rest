@@ -2,7 +2,7 @@
 
 Dependencies list:
 
-* [symfony REST edition github page](https://github.com/gimler/symfony-rest-edition): The symfony REST edition provide a bunch of bundles to build your REST API
+* [Symfony REST edition](https://github.com/gimler/symfony-rest-edition): The symfony REST edition provide a bunch of bundles to build your REST API
 *
 
 
