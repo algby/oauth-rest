@@ -1,6 +1,5 @@
-# oAuth REST API
+# oAuth REST API with Symfony
 
-Playground for oAuth authentication in a symfony 2 rest api
+This guide show how to setup a REST API with oAuth authentication.
 
-
-1. [Setup dependencies](docs/dependencies-setup.md)
+1. [Install the dependencies](docs/01-dependencies-setup.md)

@@ -2,8 +2,10 @@
 
 Dependencies list:
 
-* [Symfony REST edition](https://github.com/gimler/symfony-rest-edition): The symfony REST edition provide a bunch of bundles to build your REST API
-*
+* [Symfony REST edition](https://github.com/gimler/symfony-rest-edition):
+    Symfony REST edition provide a bunch of bundles to build your REST API
+* [FOSOAuthServerBundle](https://github.com/FriendsOfSymfony/FOSOAuthServerBundle)
+
 
 
 ## Installing the REST Edition
